@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*
+think about responsive UI --> F12 (inspect page also for phones and tablets)
+ */
+
+h1{
+    font-family: fantasy;
+    font-size: 3em;
+    border-bottom: 2px solid pink;
+    width: 400px;
+    text-align: center;
+    border-right: 2px solid pink;
+    box-shadow: 4px 4px 5px #80A035;
+}
+
+img {
+    width: 450px;
+    height: 450px;
+    margin: 10px;
+    transition: all 1s;
+}
+
+/*
+hover over the image the image will become bigger, within one second set in the previous command
+ */
+img:hover{
+    transform: scale(1.1);
+}
