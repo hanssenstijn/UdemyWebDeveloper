@@ -1,0 +1,79 @@
+/*Selector {
+    Property: value:
+}
+ */
+
+/*
+using the star to asses all elements
+*/
+
+*{
+   text-align: center;
+}
+
+body{
+    background-image: url("road.jpg");
+    background-size: cover;
+}
+
+h2,p {
+    color: red;
+    text-align: center;
+    border: 5px dashed gray;
+    cursor: pointer;
+}
+
+img{
+    float: top;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+}
+/*
+important breaks the rules of cascade
+*/
+p {
+    color: #80A035 !important;
+}
+/*
+CSS --> cascade, so first sets it to pink and than changes it to green
+ */
+p{
+    color: green;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+/*
+access by class using the ('.') dot
+ */
+.webtext{
+    border: 5px dashed yellow;
+}
+
+/*
+access by div using the hashtag ('#')
+ */
+#div1{
+    background: rgba(0,0,255,0.5);
+}
+
+#div2{
+    background: rgba(255,0,0,0.5);
+}
+
+/*
+A + B, selects the B after the occurence of A
+A ~ B select all the B afther the occurence of A
+A > B select all direct childern of A
+ */
