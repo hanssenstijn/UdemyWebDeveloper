@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+
+</head>
+<body>
+    <h1>
+        JS in HTML
+    </h1>
+    <!-- JS should be at the bottom of the body, making sure that the web page gets rendered than the JS -->
+    <!-- directly JS in the html file -->
+    <script type="text/javascript">
+        alert("Hello")
+    </script>
+    <!-- call upon the file -->
+    <script type="text/javascript" src="script.js">
+    </script>
+</body>
+</html>
